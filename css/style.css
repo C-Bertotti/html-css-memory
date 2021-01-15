@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
+}
+
+header {
+  height: 130px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px #6e8187;
+}
+
+main {
+  width: 720px;
+  margin: auto;
+}
+
+
+/* carte */
+
+.card {
+  height: 190px;
+  width: 160px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #6e8187;
+}
