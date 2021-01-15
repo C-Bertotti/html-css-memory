@@ -49,22 +49,6 @@ h2 {
   width: 100%;
 }
 
-.card.tractor:hover {
-  background-image: url(../img/noun_Tractor_3134797.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-.card.tractor:hover {
-  background-image: url(../img/noun_Tractor_3134797.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-
-
 .card:hover h2 {
   display: block;
 }
@@ -73,4 +57,18 @@ h2 {
   background-color: red;
   display: flex;
   justify-content: space-between;
+}
+
+.card.tractor:hover {
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.card.tram:hover {
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
 }
