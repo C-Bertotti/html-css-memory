@@ -28,6 +28,7 @@ main > div {
 
 
 /* carte */
+
 .card {
   height: 190px;
   width: 160px;
@@ -52,13 +53,17 @@ h2 {
   display: block;
 }
 
+.row-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
 .row {
   background-color: red;
   display: flex;
   justify-content: space-between;
 }
 
-.card:hover {
+.card.face-up:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
@@ -79,4 +84,19 @@ h2 {
 
 .card.bycicle:hover {
   background-image: url("../img/noun_Bicycle_3134821.png");
+}
+
+.card.airbaloon:hover h2 {
+  color: orange;
+}
+
+.airbaloon h2 {
+  display: block;
+  color: magenta;
+}
+
+.airbaloon {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-color: white;
+  background-repeat: no-repeat;
 }
