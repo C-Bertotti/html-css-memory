@@ -56,6 +56,21 @@ h2 {
   background-color: white;
 }
 
+.card.tractor:hover {
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+
 .card:hover h2 {
   display: block;
+}
+
+.row {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
 }
