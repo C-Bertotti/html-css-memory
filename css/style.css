@@ -28,11 +28,10 @@ main > div {
 
 
 /* carte */
-
 .card {
   height: 190px;
   width: 160px;
-  background-image: url(../img/pattern.png);
+  background-image: url("../img/pattern.png");
   background-size: contain;
   border-radius: 10px;
   box-shadow: 1px 1px 3px #6e8187;
@@ -59,16 +58,25 @@ h2 {
   justify-content: space-between;
 }
 
-.card.tractor:hover {
-  background-image: url(../img/noun_Tractor_3134797.png);
+.card:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
 }
 
+/* varianti */
+.card.tractor:hover {
+  background-image: url("../img/noun_Tractor_3134797.png");
+}
+
 .card.tram:hover {
-  background-image: url(../img/noun_Tram_3134750.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
+  background-image: url("../img/noun_Tram_3134750.png");
+}
+
+.card.submarine:hover {
+  background-image: url("../img/noun_Submarine_3134738.png");
+}
+
+.card.bycicle:hover {
+  background-image: url("../img/noun_Bicycle_3134821.png");
 }
