@@ -22,6 +22,10 @@ main {
   margin: auto;
 }
 
+main > div {
+  display: inline-block;
+}
+
 
 /* carte */
 
@@ -32,4 +36,26 @@ main {
   background-size: contain;
   border-radius: 10px;
   box-shadow: 1px 1px 3px #6e8187;
+  display: inline-block;
+  position: relative;
+}
+
+h2 {
+  color: orange;
+  bottom: 5px;
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 100%;
+}
+
+.card.tractor:hover {
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.card:hover h2 {
+  display: block;
 }
